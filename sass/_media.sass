@@ -1,13 +1,18 @@
 @media (max-width: 1200px)
     .container
-        width: 980px
+        max-width: 960px
+    .navigation__container
+        max-width: 960px
+
     .onlain-service
         background-position: 340px
         background-size: 875px
        
 @media (max-width: 992px)
     .container
-        width: 760px
+        max-width: 760px
+    .navigation__container
+        max-width: 760px
     .onlain-service
         background-position: 300px
         background-size: 850px
@@ -20,9 +25,13 @@
             font-weight: 400
             font-size: 20px
             line-height: 28px
+    .card
+        flex-basis: 45%
 @media  (max-width: 768px)
     .container
-        width: 570px
+        max-width: 570px
+    .navigation__container
+        max-width: 570px
     .onlain-service
         background-position: 400px
         
@@ -35,9 +44,16 @@
             font-weight: 400
             font-size: 15px
             line-height: 20px
+    .footer
+        padding-top: 20px
+        padding-bottom: 20px
+    .footer__wrapper
+        flex-direction: column
+    .logo-partners
+        margin-bottom: 20px
 @media (max-width: 576px)
     .container
-        width: 92%
+        width: 98%
     .navigation__container
         flex-direction: column
         align-items: center
@@ -50,12 +66,34 @@
     .onlain-service
         text-align: center
         padding: 15px 5px 15px 5px
+     
         
         &__subtitle
             width: 100%
+    .hero__title
+        padding-top: 20px
+        padding-bottom: 20px
+        flex-direction: column
+    .price
+        font-size: 30px
+        margin-bottom: 15px
+    .search-dishes
+        width: 100%
+        
+    .card
+        flex-basis: 80%
+        margin: auto
+        margin-bottom: 20px
+    .logo-partners
+        flex-direction: column
+    
 @media (max-width: 480px)
+    .partners
+        justify-content: space-between
+        flex-wrap: wrap
+    .partners__list
+        flex-basis: 40%
+    
+@media (max-width: 325px)
     .container
-        width: 92%
-@media (max-width: 320px)
-    .container
-        width: 92%
+        width: 100%
