@@ -4,7 +4,8 @@
 
 body {
   background: -webkit-gradient(linear, left top, right top, from(#FBFBFB), to(#F5F5F5));
-  background: linear-gradient(to right, #FBFBFB, #F5F5F5); }
+  background: linear-gradient(to right, #FBFBFB, #F5F5F5);
+  font-family: "Roboto", sans-serif; }
 
 .container {
   max-width: 1200px;
