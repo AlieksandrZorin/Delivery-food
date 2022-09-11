@@ -139,6 +139,10 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.link-card {
+  text-decoration: none;
+  color: #000; }
+
 .card {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
@@ -317,6 +321,126 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.is-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.modal-dialog {
+  margin: auto;
+  max-width: 780px;
+  width: 95%;
+  min-height: 552px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 40px 45px; }
+
+.modal-body {
+  margin-bottom: 52px; }
+
+.modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 45px; }
+
+.modal-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px; }
+
+.close {
+  border: none;
+  background-color: transparent;
+  font-size: 36px; }
+
+.food-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #8C8C8C;
+  padding-bottom: 10px;
+  margin-bottom: 15px; }
+
+.food-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px; }
+
+.food-praice {
+  margin-left: auto;
+  margin-right: 48px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px; }
+
+.counter-button {
+  width: 39px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #40A9FF;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #40A9FF;
+  cursor: pointer; }
+
+.counter {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.praicetag {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  background-color: #262626;
+  padding: 15px 20px;
+  border-radius: 5px; }
+
+.button__decorationo {
+  padding: 8px 16px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #1890ff;
+  border-radius: 2px;
+  margin-right: 19px; }
+
+.button__esc {
+  color: #8C8C8C; }
 
 @media (max-width: 1200px) {
   .container {
